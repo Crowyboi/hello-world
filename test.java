@@ -120,7 +120,11 @@ public class test {
 		JLabel lblAntwort = new JLabel("Antwort");
 		lblAntwort.setFont(new Font("Dialog", Font.BOLD, 14));
 		lblAntwort.setBounds(68, 214, 66, 15);
-		frame.getContentPane().add(lblAntwort)
+		frame.getContentPane().add(lblAntwort);
+		
+		JLabel lblMadeBySilas = new JLabel("Made by Furry Fuchs");
+		lblMadeBySilas.setBounds(296, 243, 144, 15);
+		frame.getContentPane().add(lblMadeBySilas);
 		
 		JLabel lblNummer = new JLabel("Nummer1");
 		lblNummer.setBounds(84, 106, 83, 15);
